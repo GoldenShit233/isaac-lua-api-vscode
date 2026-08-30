@@ -210,6 +210,7 @@ const REPENTOGON_GLOBALS = [
     "ProceduralItemManager",
     "ProjectileMode",
     "PurityState",
+    "Renderer",
     "RetractingSpikesVariant",
     "RoomConfigHolder",
     "RoomSubType",
