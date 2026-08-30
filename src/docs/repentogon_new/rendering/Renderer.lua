@@ -7,6 +7,9 @@ Renderer.VertexAttributeFormat = {}
 ---@type ShaderType
 Renderer.ShaderType = {}
 
+---@type GLSLType
+Renderer.GLSLType = {}
+
 ---@param filePath string @The path to the image.
 ---@return Image
 function Renderer.LoadImage(filePath)
