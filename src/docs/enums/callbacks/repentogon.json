@@ -5600,10 +5600,6 @@
       {
         "type": "Challenge",
         "name": "ChallengeID"
-      },
-      {
-        "type": "EntityPlayer",
-        "name": "Player"
       }
     ],
     "returns": [
