@@ -143,6 +143,8 @@ def _write_enum(name: str, enum_dict: dict, writer: TextIO, depth: int = 0):
             is_parent = True
     if not is_parent:
         print(DEPTH_SEP * depth + f"---@enum {name}", file=writer)
+    else:
+        print(DEPTH_SEP * depth + f"---@class {name}", file=writer)
     print(DEPTH_SEP * depth + f"{name} = ""{", file=writer)
     for (key, item) in enum_dict.items():
         if is_parent:
