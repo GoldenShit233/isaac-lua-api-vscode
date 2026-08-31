@@ -133,3 +133,13 @@ end
 ---@return AnimationFrame
 function Sprite:GetOverlayLayerFrameData(layer)
 end
+
+---@param layer integer
+---@return Image?
+function Sprite:GetSpritesheet(layer)
+end
+
+---@param layer integer
+---@param spritesheet Image
+function Sprite:SetSpritesheet(layer, spritesheet)
+end
