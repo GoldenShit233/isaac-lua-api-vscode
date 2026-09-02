@@ -1,14 +1,12 @@
 ---@class Camera
 local Camera = {}
 
----The camera will attempt to focus on the specified position. Currently, this must be called every frame or else the game will stop trying to focus on it.
+---The camera will attempt to focus on the specified position. Call this on `MC_POST_UPDATE`.
 ---@param pos Vector
 function Camera:SetFocusPosition(pos)
 end
 
----Immediately moves the camera to the specified position.
----
----**BUG:** This function currently does not work with Active Cam enabled as the camera snaps back to its original position in each update.
+---Immediately moves the camera to the specified position. Call this on `MC_PRE_RENDER`, as calling it on POST will have it overriden if the Active Cam option is enabled.
 ---@param pos Vector
 function Camera:SnapToPosition(pos)
 end
