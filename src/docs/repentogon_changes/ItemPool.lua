@@ -119,6 +119,10 @@ end
 function ItemPool:ResetCollectible(collectibleType)
 end
 
+---@param itemPoolType ItemPoolType
+function ItemPool:SetLastPool(itemPoolType)
+end
+
 ---@class PoolItems
 ---@field itemID CollectibleType? @default: `CollectibleType.COLLECTIBLE_NULL`
 ---@field name string? @Alternative to `itemID`
