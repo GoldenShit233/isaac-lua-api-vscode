@@ -85,6 +85,10 @@ end
 function Entity:GetCollisionCapsule(vector)
 end
 
+---@return ColorParams[]
+function Entity:GetColorParams()
+end
+
 ---If the entity recently took damage with the DAMAGE_COUNTDOWN `DamageFlag`, 
 ---this returns how many more frames must pass before they can take damage with 
 ---the DAMAGE_COUNTDOWN `DamageFlag` again.
