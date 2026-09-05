@@ -240,6 +240,7 @@ end
 ---@param position Vector? @default: `self.Position`
 ---@param color Color? @default: `Color.Default`
 ---@param scale? number @default: `1.0`
+---@return EntityEffect, EntityEffect
 function Entity:MakeGroundPoof(position, color, scale)
 end
 
