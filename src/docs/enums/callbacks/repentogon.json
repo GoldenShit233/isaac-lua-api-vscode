@@ -168,7 +168,7 @@
         "name": "Player"
       },
       {
-        "type": "UseFlag",
+        "type": "UseFlags",
         "name": "Flags"
       },
       {
@@ -207,7 +207,7 @@
         "name": "Player"
       },
       {
-        "type": "UseFlag",
+        "type": "UseFlags",
         "name": "Flags"
       },
       {
@@ -1149,8 +1149,8 @@
         "name": "Player"
       },
       {
-        "type": "integer",
-        "name": "UseFlag"
+        "type": "UseFlags",
+        "name": "Flags"
       }
     ],
     "returns": [
@@ -1176,8 +1176,8 @@
         "name": "Player"
       },
       {
-        "type": "integer",
-        "name": "UseFlag"
+        "type": "UseFlags",
+        "name": "Flags"
       }
     ],
     "returns": [
