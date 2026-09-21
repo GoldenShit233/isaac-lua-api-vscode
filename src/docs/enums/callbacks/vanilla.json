@@ -141,8 +141,8 @@
         "name": "Player"
       },
       {
-        "type": "CacheFlag",
-        "name": "CacheFlag"
+        "type": "CacheFlags",
+        "name": "CacheFlags"
       }
     ],
     "returns": [],
