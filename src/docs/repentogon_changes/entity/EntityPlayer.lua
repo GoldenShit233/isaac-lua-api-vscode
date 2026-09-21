@@ -1480,7 +1480,7 @@ end
 
 
 ---@param Item CollectibleType
----@param UseFlags? UseFlag @default: `0`
+---@param UseFlags? UseFlags @default: `0`
 ---@param Slot? ActiveSlot | -1 @default: `-1`
 ---@param customVarData? integer @default: `0`
 ---@return UseActiveItemResultFlag @Returns a Bitmask that contains if the item should be discharged and/or removed. `UseActiveItemResultFlags.REMOVE` is possible to not be passed even if the item would be removed normally. It will not be passed if any of the following conditions are met:
