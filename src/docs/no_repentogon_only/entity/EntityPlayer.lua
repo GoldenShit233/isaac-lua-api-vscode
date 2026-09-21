@@ -1,8 +1,8 @@
 ---@class EntityPlayer
 ---@field FriendBallEnemy userdata @EntityDesc @const
 
----@param CacheFlag CacheFlag
-function EntityPlayer:AddCacheFlags(CacheFlag)
+---@param CacheFlags CacheFlags
+function EntityPlayer:AddCacheFlags(CacheFlags)
 end
 
 ---@param FamiliarVariant integer
